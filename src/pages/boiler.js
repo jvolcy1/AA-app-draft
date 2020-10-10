@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { StyleSheet, Text, View, Button, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import data from "../redux/data.js";
 
 function BoilerPage(props) {
@@ -26,7 +26,7 @@ function mapStateToProps(state) {
   return { dummyData };
 }
 
-export default connect(mapStateToProps)(HomePage)
+export default connect(mapStateToProps)(BoilerPage)
 
 const styles = StyleSheet.create({
 });

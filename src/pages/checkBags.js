@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
-import { StyleSheet, Text, View, Button, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import data from "../redux/data.js";
 
-function HomePage(props) {
+function CheckBagsPage(props) {
   const { navigation, dispatch, dummyData } = props;
 
   const { navigate, goBack } = navigation;
@@ -17,6 +17,7 @@ function HomePage(props) {
   return (
     <View
       style={styles.container}>
+      Hello World
     </View>
   );
 }
@@ -26,7 +27,7 @@ function mapStateToProps(state) {
   return { dummyData };
 }
 
-export default connect(mapStateToProps)(HomePage)
+export default connect(mapStateToProps)(CheckBagsPage)
 
 const styles = StyleSheet.create({
 });
