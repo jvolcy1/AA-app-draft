@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { StyleSheet, Text, View, Button, FlatList, TouchableOpacity } from 'react-native';
 import data from "../redux/data.js";
 
-function HomePage(props) {
+function BoilerPage(props) {
   const { navigation, dispatch, dummyData } = props;
 
   const { navigate, goBack } = navigation;

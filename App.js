@@ -16,6 +16,7 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator screenOptions={{headerShown: false}}>
           <Stack.Screen name="Home" component={HomePage}/>
+          <Stack.Screen name="Login" component={LoginPage}/>
         </Stack.Navigator>
         </NavigationContainer>
     </ReduxProvider>
