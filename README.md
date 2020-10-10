@@ -5,6 +5,7 @@
 - Carlos Mayers
 - Jovaan Volcy
 - Dylan Bent
+- Hunter Allen
 
 
 This pandemic has caused the world to exponentially advance the automation of processes. This is due to the danger of human contact. In an airport, there are still many points of contact, one of them being check-in. It is possible to check-in through mobile apps which will eliminate the contact through handling of IDs and shared touch screen devices. However, the baggage must still be processed by an assistant. Our app will take this process to the next level by implementing a system of checking in bags without human interaction.
