@@ -1,11 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { StyleSheet, View } from 'react-native';
-import Button from 'react-bootstrap/Button';
-
 import data from "../redux/data.js";
 
-function CheckBagsPage(props) {
+function BoilerPage(props) {
   const { navigation, dispatch, dummyData } = props;
 
   const { navigate, goBack } = navigation;
@@ -19,9 +17,6 @@ function CheckBagsPage(props) {
   return (
     <View
       style={styles.container}>
-      <Button class={styles.button} variant="primary">Primary</Button>{' '}
-      <Button class="button" variant="primary">Primary</Button>{' '}
-      <Button class="button" variant="primary">Primary</Button>{' '}
     </View>
   );
 }
@@ -31,10 +26,7 @@ function mapStateToProps(state) {
   return { dummyData };
 }
 
-export default connect(mapStateToProps)(CheckBagsPage)
+export default connect(mapStateToProps)(BoilerPage)
 
 const styles = StyleSheet.create({
-  button: {
-    marginVertical: 32
-  }
 });
